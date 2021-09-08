@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact</title>
+    <style>
+        body {
+            background-color: #B5EAEA;
+        }
+
+        td {
+            padding: 2px;
+        }
+
+        label,
+        input {
+            padding: 3px;
+        }
+
+        body {
+            background-color: #B5EAEA;
+        }
+
+        table {
+            background-image: url("pngwing.com.png");
+            background-position: center;
+        }
+
+        ul,
+        ol {
+            background-image: url("pngwing.com.png");
+            background-position: right, center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            animation:forwards;   
+        }
+        /* input{
+            background-color: #FFC069;
+            color: cornsilk;
+            box-shadow: coral;
+        } */
+
+        .header {
+            position: inherit;
+            left: auto;
+            bottom: 0;
+            height: fit-content;
+            width: 100%;
+            background-color: #F9B208;
+            color: #00ADB5;
+            text-align: justify;
+            border: 3px solid #F9B208;
+            border-bottom-width: 20px;
+            border-left-width: 20px;
+            border-block-start-width: thick;
+            border-right-color: coral;
+            border-right-style: dotted;
+            border-right-width: 20px;
+            border-left-width: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>These are my contact details below</h2> 
+        <h1>Mobile No. : 1236547890</h1>
+        <h1>Email : abcd@gmail.com</h1>
+    </div>
+    <hr noshade="0" color="black">
+    <section><img src="mail.png" alt="mail img" width="180" height="100"></section>
+    <h2>Fill the Form to get in touch </h2>
+    
+    <form action="mailto:   adityafitness21@gmail.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="fname"><br></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name </label></td>
+                <td><input type="text" id="lname" name="lname"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="PNo">Phone No.</label></td>
+                <td><input type="text" id="PNo" name="PNo"><br></td>
+            </tr>
+            <tr>
+                <td><label for="sub">Do you want to subscribe</label></td>
+                <td><input type="radio" id="sub" name="sub"><br></td>
+            </tr>
+        </table>
+        <label for="Your Message">Your Message</label><br><br>
+        <textarea name="Your Message" cols="30" rows="10"></textarea><br>
+        <input style="background-color: #FFC069;color: cornsilk; box-shadow: coral;"  type="Submit" value="Submit"><br>
+        <input type="file"><br>
+        <input style="background-color: #FFC069;color: cornsilk; box-shadow: coral;" type="reset">
+
+    </form>
+</body>
+
+</html>
